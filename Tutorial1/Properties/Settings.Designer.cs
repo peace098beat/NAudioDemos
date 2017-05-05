@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tutorial1.Properties
+namespace Tutorial2.Properties
 {
 
 

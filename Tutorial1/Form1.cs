@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Tutorial1
+namespace Tutorial2
 {
     public partial class Form1 : Form
     {

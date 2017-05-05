@@ -28,30 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button_OpenWav = new System.Windows.Forms.Button();
-            this.button_PauseWav = new System.Windows.Forms.Button();
+            this.button_Convert = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
-            // button_OpenWav
+            // button_Convert
             // 
-            this.button_OpenWav.Location = new System.Drawing.Point(12, 36);
-            this.button_OpenWav.Name = "button_OpenWav";
-            this.button_OpenWav.Size = new System.Drawing.Size(335, 23);
-            this.button_OpenWav.TabIndex = 2;
-            this.button_OpenWav.Text = "Open Wave File";
-            this.button_OpenWav.UseVisualStyleBackColor = true;
-            this.button_OpenWav.Click += new System.EventHandler(this.button_OpenWav_Click);
-            // 
-            // button_PauseWav
-            // 
-            this.button_PauseWav.Location = new System.Drawing.Point(12, 66);
-            this.button_PauseWav.Name = "button_PauseWav";
-            this.button_PauseWav.Size = new System.Drawing.Size(335, 23);
-            this.button_PauseWav.TabIndex = 3;
-            this.button_PauseWav.Text = "Pause/Play WAV";
-            this.button_PauseWav.UseVisualStyleBackColor = true;
-            this.button_PauseWav.Click += new System.EventHandler(this.button_PauseWav_Click);
+            this.button_Convert.Location = new System.Drawing.Point(12, 36);
+            this.button_Convert.Name = "button_Convert";
+            this.button_Convert.Size = new System.Drawing.Size(335, 23);
+            this.button_Convert.TabIndex = 2;
+            this.button_Convert.Text = "Convert MP3->WAV";
+            this.button_Convert.UseVisualStyleBackColor = true;
+            this.button_Convert.Click += new System.EventHandler(this.button_Convert_Click);
             // 
             // linkLabel1
             // 
@@ -68,12 +57,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 105);
+            this.ClientSize = new System.Drawing.Size(359, 71);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.button_PauseWav);
-            this.Controls.Add(this.button_OpenWav);
+            this.Controls.Add(this.button_Convert);
             this.Name = "Form1";
-            this.Text = "Tutorial 1";
+            this.Text = "Tutorial";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -82,8 +70,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button button_OpenWav;
-        private System.Windows.Forms.Button button_PauseWav;
+        private System.Windows.Forms.Button button_Convert;
         private System.Windows.Forms.LinkLabel linkLabel1;
     }
 }

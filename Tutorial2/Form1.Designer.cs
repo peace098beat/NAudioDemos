@@ -39,7 +39,7 @@
             this.button_OpenWav.Name = "button_OpenWav";
             this.button_OpenWav.Size = new System.Drawing.Size(335, 23);
             this.button_OpenWav.TabIndex = 2;
-            this.button_OpenWav.Text = "Open Wave File";
+            this.button_OpenWav.Text = "Open Audio File";
             this.button_OpenWav.UseVisualStyleBackColor = true;
             this.button_OpenWav.Click += new System.EventHandler(this.button_OpenWav_Click);
             // 
@@ -49,7 +49,7 @@
             this.button_PauseWav.Name = "button_PauseWav";
             this.button_PauseWav.Size = new System.Drawing.Size(335, 23);
             this.button_PauseWav.TabIndex = 3;
-            this.button_PauseWav.Text = "Pause/Play WAV";
+            this.button_PauseWav.Text = "Pause/Play Audio";
             this.button_PauseWav.UseVisualStyleBackColor = true;
             this.button_PauseWav.Click += new System.EventHandler(this.button_PauseWav_Click);
             // 
@@ -73,7 +73,7 @@
             this.Controls.Add(this.button_PauseWav);
             this.Controls.Add(this.button_OpenWav);
             this.Name = "Form1";
-            this.Text = "Tutorial 1";
+            this.Text = "Tutorial";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);

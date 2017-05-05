@@ -18,7 +18,7 @@ namespace Tutorial2
             //リンク先に移動したことにする
             linkLabel1.LinkVisited = true;
             //ブラウザで開く
-            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=6XvWRzWzgNI&t=26s");
+            System.Diagnostics.Process.Start(linkLabel1.Text);
         }
 
     }
