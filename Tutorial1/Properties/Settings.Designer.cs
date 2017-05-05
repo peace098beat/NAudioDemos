@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace NAudioTutorial.Properties
+namespace Tutorial1.Properties
 {
 
 
