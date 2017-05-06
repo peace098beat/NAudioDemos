@@ -31,6 +31,9 @@ namespace Tutorial
 
         public override int Read(byte[] buffer, int offset, int count)
         {
+            //*****************************************************************//
+            // ここで信号処理をする
+            //*****************************************************************//
             Console.WriteLine("DirectSoundOut request {0} bytes", count);
             return this.SourceStream.Read(buffer, offset, count);
         }
