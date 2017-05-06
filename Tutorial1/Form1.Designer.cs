@@ -1,4 +1,4 @@
-﻿namespace Tutorial2
+﻿namespace Tutorial
 {
     partial class Form1
     {

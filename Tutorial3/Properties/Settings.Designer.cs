@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Tutorial2.Properties {
+namespace Tutorial.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

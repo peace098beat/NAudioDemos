@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 using NAudio.Wave;
-namespace Tutorial2
+namespace Tutorial
 {
     public partial class Form1 : Form
     {
