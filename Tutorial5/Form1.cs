@@ -18,8 +18,8 @@ namespace Tutorial
         private void Form1_Load(object sender, EventArgs e)
         {
             // ボタンの初期状態
-            this.Text = @"Tutorial 5";
-            linkLabel1.Text = "https://www.youtube.com/watch?v=CFUBse8Rjko";
+            this.Text = @"Tutorial 6 - Audio Loopback using";
+            linkLabel1.Text = "https://www.youtube.com/watch?v=BjnTgIdTXwI";
         }
 
         #endregion
